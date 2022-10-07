@@ -1,0 +1,16 @@
+.item {
+
+}
+
+.itemChecked {
+    opacity: 0.3;
+}
+
+.content {
+    border-bottom: 1px solid #eee;
+    padding: var(--padding-small);
+
+    .item:last-child {
+        border-bottom: none;
+    }
+}
