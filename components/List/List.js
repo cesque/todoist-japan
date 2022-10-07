@@ -9,6 +9,6 @@ export default function List({ items, depth = 0 }) {
     });
 
     return <ul className={ classes }>
-        { items.map(item => <Item item={ item } depth={ depth } />) }
+        { items.map((item, index) => <Item item={ item } depth={ depth } key={ index} />) }
     </ul>
 }
